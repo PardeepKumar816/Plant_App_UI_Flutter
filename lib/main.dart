@@ -19,7 +19,7 @@ class PlantApp extends StatelessWidget {
       ),
       home: PlantsOverViewScreen(),
       routes: {
-        PlantsDetailsScreen.id: (context) => PlantsDetailsScreen(),
+        PlantsDetailsScreen.id: (context) => const PlantsDetailsScreen(),
       },
     );
   }
